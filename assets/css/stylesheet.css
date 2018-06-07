@@ -381,9 +381,6 @@ h3.smalltxt {
 
 /* new */
 
-.row.proj-screenshot {
-   
-}
 
 .col-md-12.proj-items {
     display: flex;
@@ -393,9 +390,6 @@ h3.smalltxt {
 
 }
 
-.project-grid4 {
-
-}
 
 .projcect-lower {
     margin-top: 5em;
@@ -414,17 +408,10 @@ h3.smalltxt {
     padding: 1.6em;
   }
 
-  /* .cell-e {
-    display: flex;
-    justify-content: flex-end;
-    max-width: 100%;
-    padding-right: 75px;
-  } */
-
+  
   .project-description-r {
     align-self: center;
     max-width: 100%;
-    padding:
    }
 
 
@@ -472,9 +459,49 @@ h3.smalltxt {
     background-color:#FBB03B;
  }
 
-.tag.webdev {
+.tag.frontwebdev {
     background-color:#2DCC67;
  }
+
+ .tag.backwebdev {
+  background-color: #00B6FF;
+}
+
+.tag.uidesign{
+  background-color:#FBB03B;
+}
+
+.tag.database{
+  background-color:#FF2EDC;
+}
+
+.tag.group{
+  background-color:#2400B9;
+}
+
+button.allprojects {
+  padding: 5px 25px;
+  border-radius: 25px;
+  border: solid 2px #ed7a41;
+  color: #ed7a41;
+  background-color: #f7f7f9;
+  
+}
+
+button.allprojects:hover {
+  border: solid 2px #ed7a41;
+  background-color: #ed7a41;
+}
+
+h3.btntxt.return {
+  color: #ed7a41;
+  font-size: 1.7em;
+  padding-top: 2px;
+}
+
+h3.btntxt.return:hover {
+  color: #f7f7f9;
+}
 
  p.header {
     font-size: .8em;
@@ -526,6 +553,13 @@ button.view-live.github:hover {
 
 button.view-live.github {
   background-color: #343a40;
+}
+
+.row.returnall {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 8em;
 }
 
 

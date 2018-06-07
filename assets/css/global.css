@@ -37,6 +37,11 @@ h1 {
     color: #999999;
   }
 
+  p.pg-description {
+    font-size: .9em;
+    line-height: 1.6rem;
+  }
+
   a {
       color: #f2f2f2;
   }
